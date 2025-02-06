@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: preproc_functions
+Version: 0.1.0
+Summary: preprocessing software
+Home-page: https://github.com/isabelgephart/preprocessing.git
+Author: Isabel Gephart
+Author-email: igephart@uchicago.edu
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy

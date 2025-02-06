@@ -23,9 +23,9 @@ export SINGULARITYENV_FS_LICENSE=/project2/mdrosenberg/ZZ/paranoia/license.txt
 export FS_LICENSE=/project2/mdrosenberg/ZZ/paranoia/license.txt
 
 BIDS_DIR=${DATA_DIR}
-OUTPUT_DIR="${PROJ_DIR}/fmriprep/" 
-WORK_DIR="${PROJ_DIR}/work/" 
-FS_DIR="${OUTPUT_DIR}/freesurfer"
+OUTPUT_DIR="${PROJ_DIR}/derivatives/fmriprep/" 
+WORK_DIR="${PROJ_DIR}/derivatives/work/" 
+#FS_DIR="${OUTPUT_DIR}/freesurfer"
 
 #write job info to top of error and output files
 echo "JOB INFO: " >> $SLURM_JOB_ID.out
@@ -56,4 +56,3 @@ ${BIDS_DIR} ${OUTPUT_DIR} participant \
 --n_cpus 3 \
 --omp-nthreads 20 \
 --ignore {fieldmaps,slicetiming}
---fs-subjects-dir ${FS_DIR}

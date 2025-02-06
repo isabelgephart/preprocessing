@@ -1,0 +1,8 @@
+setup.py
+preproc_functions/__init__.py
+preproc_functions/basics.py
+preproc_functions.egg-info/PKG-INFO
+preproc_functions.egg-info/SOURCES.txt
+preproc_functions.egg-info/dependency_links.txt
+preproc_functions.egg-info/requires.txt
+preproc_functions.egg-info/top_level.txt

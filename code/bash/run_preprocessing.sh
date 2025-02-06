@@ -4,6 +4,7 @@
 #SBATCH --nodes=3
 #SBATCH --ntasks-per-node=20
 #SBATCH --account=pi-mdrosenberg
+#SBATCH --time=1:00:00
 #SBATCH --partition=caslake
 ##SBATCH --mem=200GB
 #SBATCH --output=%j.out       # output log file
@@ -19,4 +20,4 @@ module load afni
 module load fsl
 # Launch your run
 #jobnum=$1
-python /project/mdrosenberg/IG/sleep_networks/code/python/run_preprocessing.py --sub=$sub --ses=$ses --dir=$dir
+python /project/mdrosenberg/IG/preprocessing/code/python/run_preprocessing.py --sub=$sub --ses=$ses --dir=$dir --task=$task --run=$run
