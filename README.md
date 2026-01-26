@@ -10,5 +10,5 @@ This code is all writen to be run on midway, but may be useful to do on a local 
 - A .sh script submits the jobs 
 - In some cases a python script is called within the jobs
 
-My general recommendation is that you copy all of /code into your own folder and it should all work as long as you set the [roject name correctly at the top of each notebook. Note that you will need to have the atlases accessible as well. 
+My general recommendation is that you copy all of /code into your own folder and it should all work as long as you set the project name correctly at the top of each notebook. Note that you will need to have the atlases accessible as well. 
 
