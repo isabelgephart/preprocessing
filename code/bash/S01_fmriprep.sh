@@ -24,7 +24,6 @@ FMRIPREP_VER=latest
 subject=${subj}
 PROJ_DIR=${dir}
 DATA_DIR=${data}
-FD_THRESH=0.25
 
 export FS_LICENSE=/project2/mdrosenberg/ZZ/paranoia/license.txt
 export SINGULARITYENV_FS_LICENSE=$FS_LICENSE
